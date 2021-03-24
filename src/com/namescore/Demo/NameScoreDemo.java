@@ -3,8 +3,6 @@ package com.namescore.Demo;
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
-import java.util.logging.FileHandler;
-
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
@@ -23,10 +21,7 @@ public class NameScoreDemo {
 	   static Logger log = Logger.getLogger(NameScoreDemo.class.getName());
 
 	public static void main(String[] args) {
-		BasicConfigurator.configure();
-		//
-		//FileHandler fileHandler = new FileHandler("app.log", true);        
-       // ((Object) log).addHandler(fileHandler);
+		BasicConfigurator.configure();		
 		log.info("Entry into main method of "+NameScoreDemo.class.getName());
 		
 		//Creating factory instance 
