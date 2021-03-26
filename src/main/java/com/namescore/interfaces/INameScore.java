@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.namescore.interfaces;
+package main.java.com.namescore.interfaces;
 
 import java.io.IOException;
 import java.util.List;

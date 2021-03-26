@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.namescore.util;
+package main.java.com.namescore.util;
 
 /**
  * @author Kashi

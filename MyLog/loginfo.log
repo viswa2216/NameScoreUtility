@@ -1,0 +1,48 @@
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Entry into main method of main.java.com.namescore.Demo.NameScoreDemo
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getINameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Exit getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::43
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::43
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::176
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::219
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::243
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::462
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::160
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::622
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::210
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::832
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::342
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::1174
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::539
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::1713
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::592
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::2305
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Exit getNameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - final score of names from main method :: 2305
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Exit main method of main.java.com.namescore.Demo.NameScoreDemo
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Entry into main method of main.java.com.namescore.Demo.NameScoreDemo
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getINameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Exit getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::43
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::43
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::176
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::219
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::243
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::462
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::160
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::622
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::210
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::832
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::342
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::1174
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::539
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::1713
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::592
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::2305
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Exit getNameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - final score of names from main method :: 2305
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Exit main method of main.java.com.namescore.Demo.NameScoreDemo

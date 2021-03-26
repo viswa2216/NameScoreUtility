@@ -1,13 +1,14 @@
 /**
  * 
  */
-package com.namescore.factory;
+package main.java.com.namescore.factory;
 
 
 import org.apache.log4j.Logger;
 
-import com.namescore.implservices.NameScoreImplService;
-import com.namescore.interfaces.INameScore;
+import main.java.com.namescore.implservices.NameScoreImplService;
+import main.java.com.namescore.interfaces.INameScore;
+import main.java.com.namescore.util.NameScoreConstansts;
 
 /**
  * @author Kashi
@@ -28,11 +29,11 @@ public class NameScoreFactory {
 		if (nameScoreType == null) {
 			return null;
 		}
-		if (nameScoreType.equalsIgnoreCase("NAMESCORE")) {
+		if (nameScoreType.equalsIgnoreCase(NameScoreConstansts.NAME_SCORE)) {
 			return new NameScoreImplService();
-		} else if (nameScoreType.equalsIgnoreCase("EMPLOYEENAMESCORE")) {
+		} else if (nameScoreType.equalsIgnoreCase(NameScoreConstansts.EMPLOYEE_NAME_SCORE)) {
 			return null;
-		} else if (nameScoreType.equalsIgnoreCase("FIRSTLASTNAMESCORE")) {
+		} else if (nameScoreType.equalsIgnoreCase(NameScoreConstansts.FIRST_LAST_NAME_SCORE)) {
 			return null;
 		}
 		log.info("Exit getINameScore method of " +NameScoreImplService.class.getName());

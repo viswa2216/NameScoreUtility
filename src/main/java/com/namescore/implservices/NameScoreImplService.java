@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.namescore.implservices;
+package main.java.com.namescore.implservices;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,8 +14,8 @@ import java.util.stream.Stream;
 
 import org.apache.log4j.Logger;
 
-import com.namescore.interfaces.INameScore;
-import com.namescore.util.NameScoreAlphabetEnum;
+import main.java.com.namescore.interfaces.INameScore;
+import main.java.com.namescore.util.NameScoreAlphabetEnum;
 
 /**
  * @author Kashi This class provides implementation to fetch names from given
