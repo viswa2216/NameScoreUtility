@@ -10647,3 +10647,33 @@
 [main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The name string is empty or contains other than alphabets in name:  B@AR%2BARA
 [main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - final score of names from main method :: 0
 [main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Exit main method of main.java.com.namescore.Demo.NameScoreDemo
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Entry into main method of main.java.com.namescore.Demo.NameScoreDemo
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getINameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Exit getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The name string is empty or contains other than alphabets in name:  BARA2BARA
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - final score of names from main method :: 0
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Exit main method of main.java.com.namescore.Demo.NameScoreDemo
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Entry into main method of main.java.com.namescore.Demo.NameScoreDemo
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getINameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Exit getNamesFromFile method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Entry into getNameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::44
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::44
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::176
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::220
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::243
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::463
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::160
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::623
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::210
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::833
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::558
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::1391
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The score of each name in file::518
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - The final score of all names in file ::1909
+[main] INFO  main.java.com.namescore.implservices.NameScoreImplService  - Exit getNameScore method of main.java.com.namescore.implservices.NameScoreImplService
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - final score of names from main method :: 1909
+[main] INFO  main.java.com.namescore.Demo.NameScoreDemo  - Exit main method of main.java.com.namescore.Demo.NameScoreDemo
