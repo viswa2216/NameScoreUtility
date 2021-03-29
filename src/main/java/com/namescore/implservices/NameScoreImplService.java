@@ -16,6 +16,7 @@ import org.apache.log4j.Logger;
 
 import main.java.com.namescore.interfaces.INameScore;
 import main.java.com.namescore.util.NameScoreAlphabetEnum;
+import main.java.com.namescore.util.NameScoreConstansts;
 
 /**
  * @author Kashi This class provides implementation to fetch names from given
@@ -52,7 +53,7 @@ public class NameScoreImplService implements INameScore {
 			}
 			stream = Files.lines(Paths.get(fileName));
 
-			wordList = stream.flatMap(line -> Stream.of(line.split(","))).collect(Collectors.toList());
+			wordList = stream.flatMap(line -> Stream.of(line.split(NameScoreConstansts.COMMA_DELIMETER))).collect(Collectors.toList());
 			// sorts the word list in alphabetical order
 			Collections.sort(wordList);
 
@@ -84,18 +85,20 @@ public class NameScoreImplService implements INameScore {
 				str = str.replace("\"", "");
 				str = str.toUpperCase();
 				score = 0L;
-				int sum = 0;
-				char[] ch = str.toCharArray();
+				int sum = 0;						
 				// Looping char array to get char of each string
-				for (char c : ch) {
-					String cValue = String.valueOf(c).trim();
-					if (!(cValue.isEmpty())) {
-						sum = sum + NameScoreAlphabetEnum.valueOf(cValue.trim()).getValue();
-					} else {
-						log.info("The score of each name in file::" + score);
-						return score;
-					}
-				}
+				if((!str.equals(""))&& (str.matches(NameScoreConstansts.ALPHA_REGEX)))
+				{
+					char[] ch = str.toCharArray();		
+					for (char c : ch) {
+						String cValue = String.valueOf(c).trim();											
+							sum = sum + NameScoreAlphabetEnum.valueOf(cValue.trim()).getValue();
+						} 
+				}				
+				else {
+				log.info("The name string is empty or contains other than alphabets in name:  " + str);
+				return score;
+				}				
 				score = sum * index;
 				log.info("The score of each name in file::" + score);
 				finalScore = finalScore + score;

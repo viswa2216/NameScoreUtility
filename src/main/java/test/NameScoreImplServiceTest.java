@@ -126,5 +126,39 @@ public class NameScoreImplServiceTest {
 		assertEquals(actualscore, 0);
 
 	}
+	
+	/**
+	 * Valid scenario gives expected result
+	 */
+	@Test
+	public void testGetNameScoreCase3() {
+		NameScoreImplService implService = new NameScoreImplService();
+		List<String> l1 = new ArrayList<String>();
+		l1.add("B@AR%2BARA");
+		l1.add("^ELIZ*ABETH");
+		l1.add("JENNIFER");
+		l1.add("LINDA");
+		l1.add("MARIA");
+		l1.add("MARY");
+		l1.add("PATRICIA");
+		l1.add("SUSAN");
+		long actualscore = implService.getNameScore(l1);
+		assertEquals(actualscore, 0);
+
+	}
+	
+	
+	/**
+	 * String name is empty
+	 */
+	@Test
+	public void testGetNameScoreCase4() {
+		NameScoreImplService implService = new NameScoreImplService();
+		List<String> l1 = new ArrayList<String>();
+		l1.add("");		
+		long actualscore = implService.getNameScore(l1);
+		assertEquals(actualscore, 0);
+
+	}
 
 }
